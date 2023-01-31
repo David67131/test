@@ -1,0 +1,58 @@
+body {
+    background-color: #127BD2
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    padding: 10px;
+    background-color: white;
+    width: 30%;
+    text-align: center;
+    height: 200px;
+}
+
+.left .f-item {
+    margin-top: 5px;
+}
+
+.graph {
+    background-color: white;
+    overflow: scroll;
+    height: 400px;
+}
+
+.right {
+    flex: 1;
+    margin-left: 10px;
+}
+
+.right .summary {
+    background-color: white;
+    padding: 5px;
+    font: bold;
+}
+
+.right .summary .badge {
+    float: right;
+}
+
+
+.right .item {
+    background-color: white;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.right .item__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item_child {
+    margin-top: 10px;
+}
